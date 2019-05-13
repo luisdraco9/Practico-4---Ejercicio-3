@@ -13,10 +13,10 @@ namespace Practico_4___Ejercicio_3
 
         public int Tope
         {
-            get{return tope;
-            } set{tope = value;}
+            get{return tope;}
+            set {tope = value;}
         }
-
+       
         public Pila(int tamano)
         {
             this.listaDeDiscos[] = listaDeDiscos[tamano];
