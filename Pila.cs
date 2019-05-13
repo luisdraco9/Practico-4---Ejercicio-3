@@ -11,11 +11,16 @@ namespace Practico_4___Ejercicio_3
         private int tope = -1;
         private Disco[] listaDeDiscos;
 
+        public int Tope
+        {
+            get{return tope;
+            } set{tope = value;}
+        }
+
         public Pila(int tamano)
         {
             this.listaDeDiscos[] = listaDeDiscos[tamano];
         }
-    
     
 
         public void Push(Disco disco)
