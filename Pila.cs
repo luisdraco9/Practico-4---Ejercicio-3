@@ -15,6 +15,7 @@ namespace Practico_4___Ejercicio_3
         {
             this.listaDeDiscos[] = listaDeDiscos[tamano];
         }
+    
 
 
         public void Push(Disco disco)
