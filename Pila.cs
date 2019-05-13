@@ -11,18 +11,20 @@ namespace Practico_4___Ejercicio_3
         private int tope = -1;
         private Disco[] listaDeDiscos;
 
-        public int Tope
+        /*Get Set*/
+        protected int Tope
         {
             get{return tope;}
             set {tope = value;}
         }
-       
-        public Pila(int tamano)
+        
+        /*Creador*/
+        public Pila(int cantidadDeDiscos)
         {
-            this.listaDeDiscos[] = listaDeDiscos[tamano];
+            this.listaDeDiscos[] = listaDeDiscos[cantidadDeDiscos];
         }
     
-
+        /*Funciones*/
         public void Push(Disco disco)
         {
             if (IsFull() == false)

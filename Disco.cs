@@ -29,12 +29,14 @@ namespace Practico_4___Ejercicio_3
             set{duracion = value;}
         }
 
+        /*Creador*/
         public Disco(string titulo, string interprete, double duracion)
         {
             this.titulo = titulo;
             this.interprete = interprete;
             this.duracion = duracion;
         }
+
 
     }
 }
