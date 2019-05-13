@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace Practico_4___Ejercicio_3
 {
-    class PilaAvanzada
+    public class PilaAvanzada:Pila
     {
+        public PilaAvanzada(int tamano) : base(tamano);
     }
 }
