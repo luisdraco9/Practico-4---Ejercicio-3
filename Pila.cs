@@ -25,7 +25,7 @@ namespace Practico_4___Ejercicio_3
 
         public void Push(Disco disco)
         {
-            if (IsFull == false)
+            if (IsFull() == false)
             {
                 tope++;
                 listaDeDiscos[tope] = disco;
@@ -33,7 +33,7 @@ namespace Practico_4___Ejercicio_3
         }
         public Disco Pop()
         {
-            if (IsEmpty == false)
+            if (IsEmpty() == false)
             {
                 return listaDeDiscos[tope];
                 listaDeDiscos[tope] = null;
@@ -42,7 +42,7 @@ namespace Practico_4___Ejercicio_3
         }
         public Disco Peek()
         {
-            if (IsEmpty == false)
+            if (IsEmpty() == false)
             {
                 return listaDeDiscos[tope];
             }
