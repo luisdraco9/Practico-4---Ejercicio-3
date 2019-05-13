@@ -10,6 +10,9 @@ namespace Practico_4___Ejercicio_3
     {
         static void Main(string[] args)
         {
+            Pila pila_1;
+            Pila pila_2;
+
         }
     }
 }

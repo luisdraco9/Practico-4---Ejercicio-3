@@ -11,13 +11,7 @@ namespace Practico_4___Ejercicio_3
         private int tope = -1;
         private Disco[] listaDeDiscos;
 
-        /*Get Set*/
-        protected int Tope
-        {
-            get{return tope;}
-            set {tope = value;}
-        }
-        
+
         /*Creador*/
         public Pila(int cantidadDeDiscos)
         {
