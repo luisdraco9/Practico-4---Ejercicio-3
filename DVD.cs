@@ -8,7 +8,7 @@ namespace Practico_4___Ejercicio_3
 {
     public class DVD : Disco
     {
-        public DVD(string titulo, string interprete, double duracion): base(titulo,interprete,duracion);
+        public DVD(string titulo, string interprete, double duracion): base(titulo, interprete, duracion) { }
 
     }
 }

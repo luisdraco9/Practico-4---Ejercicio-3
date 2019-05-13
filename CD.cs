@@ -8,6 +8,7 @@ namespace Practico_4___Ejercicio_3
 {
     public class CD : Disco
     {
-        public CD(string titulo, string interprete, double duracion): base(titulo,interprete,duracion);
+        public CD(string titulo, string interprete, double duracion) : base(titulo, interprete, duracion) {
+        }
     }
 }

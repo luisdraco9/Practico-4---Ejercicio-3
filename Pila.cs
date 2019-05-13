@@ -15,7 +15,7 @@ namespace Practico_4___Ejercicio_3
         /*Creador*/
         public Pila(int cantidadDeDiscos)
         {
-            this.listaDeDiscos[] = listaDeDiscos[cantidadDeDiscos];
+            this.listaDeDiscos[cantidadDeDiscos] = listaDeDiscos[cantidadDeDiscos];
         }
     
         /*Funciones*/
@@ -29,19 +29,14 @@ namespace Practico_4___Ejercicio_3
         }
         public Disco Pop()
         {
-            if (IsEmpty() == false)
-            {
-                return listaDeDiscos[tope];
-                listaDeDiscos[tope] = null;
-                tope--;
-            }
+            return listaDeDiscos[tope];
+            listaDeDiscos[tope] = null;
+            tope--;
+
         }
         public Disco Peek()
         {
-            if (IsEmpty() == false)
-            {
-                return listaDeDiscos[tope];
-            }
+            return listaDeDiscos[tope];
         }
         public bool IsEmpty()
         {

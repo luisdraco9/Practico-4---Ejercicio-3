@@ -6,30 +6,30 @@ using System.Threading.Tasks;
 
 namespace Practico_4___Ejercicio_3
 {
-    public class Disco
+    public abstract class Disco
     {
-        private string titulo;
-        private string interprete;
-        private double duracion;
+        protected string titulo;
+        protected string interprete;
+        protected double duracion;
 
         /* Get Set */
-        protected string Titulo
+        public string Titulo
         {
             get{return titulo;}
             set{titulo = value;}
         }
-        protected string Interprete
+        public string Interprete
         {
             get{return interprete;}
             set{interprete = value;}
         }
-        protected double Duracion
+        public double Duracion
         {
             get{return duracion;}
             set{duracion = value;}
         }
 
-        /*Creador*/
+        /*Constructor*/
         public Disco(string titulo, string interprete, double duracion)
         {
             this.titulo = titulo;
