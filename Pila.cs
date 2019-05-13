@@ -10,6 +10,7 @@ namespace Practico_4___Ejercicio_3
     {
         private int tope = -1;
         private Disco[] listaDeDiscos;
+        private Disco auxiliar;
 
 
         /*Creador*/
@@ -29,14 +30,20 @@ namespace Practico_4___Ejercicio_3
         }
         public Disco Pop()
         {
-            return listaDeDiscos[tope];
-            listaDeDiscos[tope] = null;
-            tope--;
-
+            if (IsEmpty() == false)
+            {
+                auxiliar = listaDeDiscos[tope];
+                listaDeDiscos[tope] = null;
+                tope--;
+                return auxiliar;
+            }
         }
         public Disco Peek()
         {
-            return listaDeDiscos[tope];
+            if (IsEmpty() == false)
+            {
+                return listaDeDiscos[tope];
+            }
         }
         public bool IsEmpty()
         {
